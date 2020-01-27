@@ -1,0 +1,34 @@
+# Paths configuration to assets files.
+assets_paths:
+  images: 
+    origin: '../assets/img/' #example: './assets/images/'
+    dest: '../assets/img/' #example: './dist/assets/images/'
+    optimization_level: 5
+  css: 
+    origin: '../assets/css/' #example: './assets/css/'
+    dest: '../assets/css/' #example: './dist/assets/css/'
+  js: 
+    origin: '../assets/js/' #example: './assets/js/'
+    dest: '../assets/js/' #example: './dist/assets/js/'
+
+# Functionalities configuration to tasks for assets files.
+functionalities:
+  images:
+    minified: true #options: true/false
+    lowly: true #options: true/false
+  css:
+    minified_and_concat: true #options: true/false
+    output_filename: 'main.min.css' #example: 'main.min.css'
+    sass_compiling: true #options: true/false
+  js:
+    minified_and_concat: true #options: true/false
+    output_filename: 'main.min.js' #example: 'main.min.js'
+
+# Notifications configuration for tasks.
+notifications:
+  activate: true #options: true/false
+
+# Watcher for changes of files
+watch:
+  root_path: '../assets' #example: './assets/'
+  activate: false #options: true/false
