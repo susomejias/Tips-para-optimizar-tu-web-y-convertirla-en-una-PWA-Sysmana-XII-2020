@@ -141,11 +141,18 @@ Partiendo del proyecto contenido dentro de la carpeta **[withoutOptimizing](./wi
 
 5. **Conversión a PWA.**
 
-    - **Artículo recomendado** [aquí](https://pablomagaz.com/blog/escribiendo-service-workers-con-workbox).
+    - **Artículos recomendados**.
+        1. Escribiendo Service Worker [aquí](https://pablomagaz.com/blog/escribiendo-service-workers-con-workbox).
+
+        2. Workbox strategies [aquí](https://developers.google.com/web/tools/workbox/modules/workbox-strategies).
+
+        3. ¿App Shell? [aquí](https://developers.google.com/web/fundamentals/architecture/app-shell?hl=es). 
 
     - **APP SHELL** *"lo necesario para que nuestro sitio funcione sin conexión a internet"*.
 
-    - Visualizar apartado **Application** de Chrome (**Service Worker y Cache Storage**).
+    - **Workbox** *"Workbox es la librería creada por Google que simplifica de forma notable la escritura de service workers mediante una API potente y sencilla."*
+
+    - Apartado **Application** de Chrome (**Service Worker y Cache Storage**).
 
     - **Crear y registrar Service Worker** ```serviceWorker.js```. Para ello creamos un archivo en la raiz del proyecto llamado ```serviceWorker.js``` y copiamos el contenido del siguiente [archivo](./optimizing/serviceWorker.js). También debemos de registrarlo añadiendo el siguiente contenido a nuestro JS.
 
@@ -174,7 +181,7 @@ Partiendo del proyecto contenido dentro de la carpeta **[withoutOptimizing](./wi
 
     - Probar **Service Worker** sin conexión.
 
-    - Instalar como **Chrome App**.
+    - Instalar como **"App"**.
 
 
 ## Contributing
